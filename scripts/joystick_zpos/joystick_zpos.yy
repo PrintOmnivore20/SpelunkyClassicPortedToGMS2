@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"joystick_zpos",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"joystick_zpos",
+  "parent":{
+    "name":"joystick",
+    "path":"folders/Scripts/compatibility/joystick.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
