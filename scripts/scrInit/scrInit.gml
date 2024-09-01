@@ -25,7 +25,7 @@ function scrInit() {
 	initMusic()
 
 	startGame = false;
-	window_set_cursor(cr_none);
+	//window_set_cursor(cr_none);
 
 	global.myFont = font_add_sprite(sFont, ord(" "), false, 0);
 	global.myFontSmall = font_add_sprite(sFontSmall, ord(" "), false, 0);
@@ -77,7 +77,6 @@ function scrInit() {
 	    else global.gamepadOn = true;
 	    file_text_readln(file);
 	    global.screenScale = real(file_text_read_string(file));
-	    global.screenScale = 1;
 	    file_text_readln(file);
 	    global.musicVol = real(file_text_read_string(file));
 	    file_text_readln(file);
@@ -211,7 +210,7 @@ function scrInit() {
 	globalvar gamepad;
 	gamepad = instance_create(0, 0, oGamepad);
 
-	// if (not joystick_exists(1) and not joystick_exists(2)) global.gamepadOn = false;
+	//if (not joystick_exists(1) and not joystick_exists(2)) global.gamepadOn = false;
 
 
 }

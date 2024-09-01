@@ -1,5 +1,5 @@
 // DEBUG
-
+if global.debug = true {
 /*
 global.money = 200000;
 global.kills = 120;
@@ -21,6 +21,6 @@ global.damsels = 8;
  //global.darkLevel = 1
 // instance_create(x-32, y, oPistol);
 global.money += 100000;
-
+}
 /* */
 /*  */

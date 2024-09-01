@@ -1,0 +1,2 @@
+scrSaveSettings();
+game_end();

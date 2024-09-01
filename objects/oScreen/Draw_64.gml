@@ -4,13 +4,15 @@
 //darkSurf
 //screen
 
+
+
 //MJD
 display_set_gui_size(view_wview[0],view_hview[0])
 
 if (paused)
 {
-    surface_set_target(pSurf)
-    
+   //surface_set_target(pSurf)
+    draw_sprite_tiled(sBlack,0,0,0)
     draw_set_font(global.myFont);
     draw_set_color(c_white);
     draw_text(112, 200, "PAUSED");
@@ -56,10 +58,10 @@ if (paused)
     }
     
    // global.drawpSurf=1
-    draw_surface_stretched(pSurf,screen_x,screen_y,window_get_width(),window_get_height());
-    draw_surface_stretched(pSurf,screen_x,screen_y,screen_w*screen_scale*(window_get_width()/view_wview[0]),screen_h*screen_scale*(window_get_height()/view_hview[0]));
+   // draw_surface_stretched(screen,screen_x,screen_y,window_get_width(),window_get_height());
+ // draw_surface_stretched(screen,screen_x,screen_y,screen_w*screen_scale*(window_get_width()/view_wview[0]),screen_h*screen_scale*(window_get_height()/view_hview[0]));
 	
-    if view_current=0 draw_surface_stretched(pSurf,screen_x,screen_y,screen_w*screen_scale,screen_h*screen_scale);
+   // if view_current=0 draw_surface_stretched(pSurf,screen_x,screen_y,screen_w*screen_scale,screen_h*screen_scale);
 }
 else
 {

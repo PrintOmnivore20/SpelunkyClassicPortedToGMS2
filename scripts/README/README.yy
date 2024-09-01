@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"README",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"README",
+  "parent":{
+    "name":"SpelunkyClassicPortedToGMS2",
+    "path":"SpelunkyClassicPortedToGMS2.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

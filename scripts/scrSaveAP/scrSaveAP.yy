@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrSaveAP",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrSaveAP",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Extensions/Archipelago/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

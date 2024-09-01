@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ap_show_debug_message",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ap_show_debug_message",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Extensions/Archipelago/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
