@@ -16,6 +16,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[9] += 1;
         global.firefrogs += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(13);
     }
     obj = instance_create(x+8, y+8, oFireFrogBomb);
     instance_destroy();

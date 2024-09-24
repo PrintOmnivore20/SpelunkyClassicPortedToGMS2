@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrLoadGlobals",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrLoadGlobals",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Extensions/Archipelago/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

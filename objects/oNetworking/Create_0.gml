@@ -14,6 +14,8 @@ if global.secure = false && global.socket != network_create_socket(ws) {
 	global.socket = network_create_socket(ws)	
 }
 
+global.AP = false
+global.packageInitilized = false
 
 playerSent = 0
 
@@ -22,7 +24,7 @@ item = 0
 //JSON file contents
 var _contents = {
 		cmd: "Connect",
-		password: "",
+		password: global.password,
 		game: APgame,
 		name: global.name,
 		uuid: int64(999999),
@@ -47,3 +49,14 @@ buffer_write(buffer,buffer_text,aa)
 
 //Sends the json to the server. If you can make this better I applaud you.
 network_send_raw(global.socket, buffer, buffer_tell(buffer),network_send_text)
+
+if isConnected >= 0 {
+	global.message = "CONNECTED TO SERVER!"
+	global.messageTimer = 100
+	global.AP = true
+
+	} else {
+		global.message = "NOT CONNECTED!"
+	
+		global.messageTimer = 100
+	}

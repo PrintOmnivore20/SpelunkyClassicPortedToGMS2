@@ -1,4 +1,4 @@
-stopAllMusic();
+/*stopAllMusic();
 global.testLevel = "";
-room_goto(rLevelEditor);
+room_goto(rLevelEditor);*/
 

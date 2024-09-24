@@ -8,6 +8,7 @@ if (active and
     global.damselsSavedTotal += 1;
     global.damsels += 1;
     global.xdamsels += 1;
+	if(global.AP==true)scrSendCheck(11);
     door = instance_place(x, y, oExit);
     x = door.x+8;
     y = door.y+8;

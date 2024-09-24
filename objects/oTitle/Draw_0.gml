@@ -11,7 +11,7 @@ draw_set_alpha(1);
 
 draw_set_font(global.myFontSmall);
 draw_set_color(c_yellow);
-draw_text(320+96, 96, "ARCHIPELAGO V0.0");
+draw_text(329+96, 96, "ARCHIPELAGO V1");
 
 
 if (instance_exists(oPlayer1))

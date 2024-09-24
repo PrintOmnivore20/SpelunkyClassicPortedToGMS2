@@ -17,6 +17,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[8] += 1;
         global.frogs += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(13);
     }
     instance_destroy();
 }

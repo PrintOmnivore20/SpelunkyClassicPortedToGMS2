@@ -32,6 +32,7 @@ if (status >= STUNNED)
             if (isRealLevel()) global.enemyKills[19] += 1;
             global.shopkeepers += 1;
             global.kills += 1;
+			if(global.AP==true)scrSendCheck(9);
         }
         global.murderer = true;
         instance_destroy();
@@ -46,6 +47,7 @@ else if (not held and collision_point(x+8, y+8, oSolid, 0, 0))
         if (isRealLevel()) global.enemyKills[19] += 1;
         global.shopkeepers += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(9);
     }
     global.murderer = true;
     if (hasGun)

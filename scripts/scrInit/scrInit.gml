@@ -36,6 +36,39 @@ function scrInit() {
 	global.screenScale = 1;
 	global.musicVol = 15;
 	global.soundVol = 15;
+	
+	//AP
+	global.AP = false
+	global.server = 0
+	global.password = 0
+	global.name = 0
+	global.port = 0
+	global.socket = network_create_socket(network_socket_ws)
+
+	global.secure = false
+
+	global.lastPlayerSent = 0
+	global.lastItemSent = 0
+	
+	scrAPGlobalInit()
+
+
+	
+	//Debug
+	if !file_exists("archipelago.cfg") {
+		scrSaveAP()	
+	}
+	if !file_exists("ap_data.sav") {
+		scrSaveGlobals()	
+	}
+		scrLoadAP()
+	scrLoadGlobals()
+	
+if global.server = "archipelago.gg" {
+		global.secure = true
+} else { global.secure = false }
+	
+
 
 	global.keyUpVal = vk_up;
 	global.keyDownVal = vk_down;

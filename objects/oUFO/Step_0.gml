@@ -11,6 +11,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[16] += 1;
         global.ufos += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(18);
     }
     instance_destroy();
 }

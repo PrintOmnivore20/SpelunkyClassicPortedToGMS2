@@ -13,6 +13,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[0] += 1;
         global.bats += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(7);
     }
     instance_destroy();
 }

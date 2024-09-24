@@ -12,6 +12,7 @@ if (hp < 1)
     if (isRealLevel()) global.enemyKills[2] += 1;
     global.spiders += 1;
     global.kills += 1;
+	if(global.AP==true)scrSendCheck(5);
     instance_destroy();
 }
 else if (not collision_point(x, y-16, oSolid, 0, 0) or (dist < 90 and oCharacter.y > y and abs(oCharacter.x - (x+8)) < 8))

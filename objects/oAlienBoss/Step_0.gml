@@ -28,6 +28,7 @@ if (hp < 1 and status != DEAD)
         if (isRealLevel()) global.enemyKills[17] += 1;
         global.alienbosses += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(19);
     }
 }
 

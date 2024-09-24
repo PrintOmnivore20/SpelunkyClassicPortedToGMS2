@@ -34,6 +34,7 @@ if (hp < 1)
         if (isRealLevel()) global.totalMonkeyKills += 1; // this is for stats
         global.monkeys += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(15);
     }
     instance_destroy();
 }

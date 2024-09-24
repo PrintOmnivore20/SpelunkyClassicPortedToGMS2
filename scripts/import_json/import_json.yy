@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"import_json",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"import_json",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Extensions/Archipelago/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

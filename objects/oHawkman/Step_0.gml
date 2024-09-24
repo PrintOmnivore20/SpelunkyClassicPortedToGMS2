@@ -181,6 +181,7 @@ else if (status == DEAD)
             if (isRealLevel()) global.enemyKills[18] += 1;
             global.hawkmen += 1;
             global.kills += 1;
+			if(global.AP==true)scrSendCheck(20);
         }
         playSound(global.sndCavemanDie);
         dead = true;

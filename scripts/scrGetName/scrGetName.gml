@@ -22,7 +22,7 @@ function scrGetName() {
     
 	***********************************************************************************/
 
-	switch(rand(1,32))
+	switch(rand(1,40))
 	{
 	    case 1: { return "AHKMED"; }
 	    case 2: { return "TERRY"; }
@@ -56,6 +56,14 @@ function scrGetName() {
 	    case 30: { return "TARN"; }
 	    case 31: { return "SLASH"; }
 	    case 32: { return "BROM"; }
+		case 33: { return "PRINT"; }
+		case 34: { return "STEELE"; }
+		case 35: { return "LUCKY"; }
+		case 36: { return "YUGI"; }
+		case 37: { return "LEAF"; }
+		case 38: { return "KAIBA"; }
+		case 39: { return "RUBY"; }
+		case 40: { return "RAGNA"; }
 	}
 
 	return "AHKMED";

@@ -181,6 +181,7 @@ else if (status == DEAD)
             if (isRealLevel()) global.enemyKills[13] += 1;
             global.yetis += 1;
             global.kills += 1;
+			if(global.AP==true)scrSendCheck(17);
         }
         playSound(global.sndCavemanDie);
         dead = true;

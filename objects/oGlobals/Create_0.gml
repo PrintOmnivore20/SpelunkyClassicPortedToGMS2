@@ -12,20 +12,7 @@ if (not joystick_exists(1) and joystick_exists(2)) joyid = 2;
 
 //
 
-global.socket = network_create_socket(network_socket_ws)
-global.name = "GuySpelunky"
-global.server = "127.0.0.1"
-global.port = 38281
-global.password = ""
 
-global.secure = false
-
-global.lastPlayerSent = 0
-global.lastItemSent = 0
-
-if global.server = "archipelago.gg" {
-		global.secure = true
-} else { global.secure = false }
 
 
 ini_open("spelunky.ini")

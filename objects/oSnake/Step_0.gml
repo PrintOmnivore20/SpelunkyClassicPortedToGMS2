@@ -20,6 +20,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[1] += 1;
         global.snakes += 1;
         global.kills += 1;
+		if (global.AP==true)scrSendCheck(4)
     }
     instance_destroy();
 }

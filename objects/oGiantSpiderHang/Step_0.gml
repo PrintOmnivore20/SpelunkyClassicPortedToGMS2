@@ -29,6 +29,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[3] += 1;
         global.giantspiders += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(5);
     }
     instance_destroy();
 }

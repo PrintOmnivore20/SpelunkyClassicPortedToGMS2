@@ -24,6 +24,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[6] += 1;
         global.zombies += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(16);
     }
     instance_destroy();
 }

@@ -23,6 +23,7 @@ if (hp < 1)
         if (isRealLevel()) global.enemyKills[10] += 1;
         global.mantraps += 1;
         global.kills += 1;
+		if(global.AP==true)scrSendCheck(12);
     }
     repeat(3) { instance_create(x+rand(0,16), y-8+rand(0,16), oLeaf); }
     scrCreateBlood(x+8, y+8, 1);

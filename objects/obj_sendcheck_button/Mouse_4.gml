@@ -2,7 +2,7 @@ buttonPressed++
 
 var _contents = {
 		cmd: "LocationChecks",
-		locations: [int64(81000+buttonPressed)]	
+		locations: [int64(0xC1A551C+buttonPressed)]	
 	}
 var arr = [_contents]
 

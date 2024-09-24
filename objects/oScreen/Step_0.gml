@@ -165,7 +165,6 @@ else
         surface_set_target(screen);
         draw_set_alpha(oTitle.darkness);
         draw_set_color(c_black);
-        
         draw_set_alpha(1);
         surface_reset_target();
     }
